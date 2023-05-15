@@ -25,6 +25,7 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
+
 /**
   |============================
   | Basic styles
@@ -729,6 +730,13 @@ body {
   border-radius: 4px;
   transition: border-color var(--transition-dur-and-func);
 }
+.modal-form-message::placeholder {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+
+  color: rgba(46, 47, 66, 0.4);
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -853,4 +861,7 @@ body {
 }
 .modal-form-check:checked + * .modal-form-check-icons {
   opacity: 1;
+}
+.modal-form-check:checked + * .modal-form-checkbox {
+  background-color: #404bbf;
 }
