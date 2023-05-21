@@ -866,7 +866,7 @@ body {
   transition: background-color var(--transition-dur-and-func);
 }
 .footer-wrapper-social {
-  margin-right: 80px;
+  margin-right: auto;
 }
 .subscribe-icon {
   margin-left: 16px;
